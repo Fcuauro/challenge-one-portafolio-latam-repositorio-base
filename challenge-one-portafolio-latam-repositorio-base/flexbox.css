@@ -1,0 +1,27 @@
+.tudo{
+    margin: 10%;
+}
+
+.menu{
+    display: inline-flex;
+    white-space: nowrap;
+    margin-bottom: 80px;
+}
+
+.menu__header{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    margin-right: 10px;
+    padding-right: 50%;
+}
+
+.menu__header img{
+    margin-right: 10px;
+}
+
+.menu__list{
+    display: flex;
+    gap: 15px;
+    float: left;
+}
