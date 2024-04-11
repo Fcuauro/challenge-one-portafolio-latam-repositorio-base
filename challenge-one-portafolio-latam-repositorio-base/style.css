@@ -49,6 +49,7 @@ https://en.bem.info/methodology/quick-start/*/
     display: inline-flex;
     white-space: nowrap;
     margin-bottom: 80px;
+    padding: 64px;
 }
 
 .menu__header{
@@ -71,14 +72,52 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Title*/
 
-section.title{
+.title{
+    display: inline-block;
+    padding: 64px;
+}
 
+.title__div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.title__profile{
+    order: 1;
+    margin-right: 10px;
+    border-radius: 50%;
+    
+}
+
+.title__bio{
+    font-size: 45px;
+}
+
+.title__subsection{
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.title__network{
+    display: flex;
+    gap: 40px;
+    padding: 0;
 }
 
 /*Sección About*/
 
-section.about{
+.about__container{
+    text-align: left;
+    margin-right: 50%;
+    padding: 64px;
+}
 
+
+
+#sobre-mi{
+    width: 100%;
+    background-color: #EAF2FD;
 }
 
 /*Sección Hobbies*/
