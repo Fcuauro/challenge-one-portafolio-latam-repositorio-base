@@ -41,8 +41,10 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
 
-.tudo{
-    margin: 10%;
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 .menu{
@@ -91,7 +93,7 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 .title__bio{
-    font-size: 45px;
+    font-size: 55px;
 }
 
 .title__subsection{
@@ -111,32 +113,170 @@ https://en.bem.info/methodology/quick-start/*/
     text-align: left;
     margin-right: 50%;
     padding: 64px;
+    
 }
 
 
 
 #sobre-mi{
-    width: 100%;
     background-color: #EAF2FD;
+    width: 100%;
 }
 
 /*Sección Hobbies*/
 
-section.hobbies{
+.skills__title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.skills__line{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.skills__box{
+    background-color: #FFFFFF;
+    position: relative;
+    padding: 100px;
     
 }
 
+
+.skills__img{
+   margin: 0;
+   padding: 0;
+   left: 15px;
+   bottom: 40px;
+   position: absolute;
+   
+}
+
+.skills__name{
+    margin: 0;
+    padding: 0;
+    left: 15px;
+    bottom: 10px;
+    position: absolute;
+}
+/*Sección Hobbies*/
+
+.hobbies__title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.hobbies__line{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.hobbies__box{
+    background-color: #FFFFFF;
+    position: relative;
+    padding: 100px;
+    
+}
+
+.hobbies__img{
+    margin: 0;
+    padding: 0;
+    left: 15px;
+    bottom: 40px;
+    position: absolute;
+}
+
+.hobbies__name{
+    margin: 0;
+    padding: 0;
+    left: 15px;
+    bottom: 10px;
+    position: absolute;
+}
 /* Experiencia Académica*/
 
-section.academic{
 
+#formacion{
+    background-color: #EAF2FD;
+    width: 100%;
+}
+.academic__title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.academic__courses{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.academic__courses__list{
+    text-align: left;
+    
+}
+
+.academic__courses__item__img{
+    background-color: #FFFFFF;
+    padding: 50px;
+}
+
+.academic__courses__item__subtitle{
+    position: relative;
+    bottom: 10px;
 }
 
 /* experiencia*/
 
-section.experience{
-
+.experience__section__title{
+text-align: center;
+font-size: 30px;
 }
+
+.experience__box{
+    display: flex;
+    margin-bottom: 64px;
+    gap: 30px;
+}
+
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.experience__text{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.experiencia__botao--repo{
+    background: #FFFFFF;
+    color: #2A7AE4;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.experience__botao--demo{
+    background: #2A7AE4;
+    color: #FFFFFF;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+.experience__img2{
+    order: 2;
+}
+
+
 
 /*Contacto*/
 
