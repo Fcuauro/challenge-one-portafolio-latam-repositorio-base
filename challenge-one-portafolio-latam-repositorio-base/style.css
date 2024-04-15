@@ -280,14 +280,54 @@ font-size: 30px;
 
 /*Contacto*/
 
-section.formcontato{
+.formcontato{
+    background: #EAF2FD;
+    
+}
 
+.formcontato__contacto{
+display: flex;
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formcontato--esquerda{
+    text-align: center;
+}
+
+.formcontato__input{
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.formcontato__botao{
+    background: #2A7AE4;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 120px;
+    text-align: start;
+}
+
+.formcontato__subtext{
+    font-weight: normal;
+    margin: 0;
 }
 
 /*footeer*/
 
-section.footer{
-   
+.footer__rodape{
+   text-align: center;
+   padding: 20px;
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?
